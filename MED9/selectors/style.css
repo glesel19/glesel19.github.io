@@ -1,0 +1,32 @@
+body{
+	background-color: blue;
+}
+
+
+
+
+
+h1{
+   border:3px solid darkblue;
+   border-top: 7px solid darkblue;
+   margin-top: 10px;
+   margin:20px;
+   padding-left: 7px;
+   height: 100px;
+   width: 200px;
+   background-color: lightblue;
+   font-size: 30px;
+}
+
+p {
+   border: 3px dotted darkblue;
+   border-top: 7px dotted darkblue;
+   margin-top: 10px;
+   margin:20px;
+   padding-left: 7px;
+   height: 100px;
+   width:200px;
+   background-color: lightblue;
+   font-size: 30px;
+}
+
