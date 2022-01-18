@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Domine&family=Neonderthaw&family=Oswald&display=swap');
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 30px;
+	font-family: Neonderthaw;
+}
+p{
+		margin: 70px;
+	text-align: justify;
+	font-family: oswald;
+	column-count: 3;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.signature{
+	margin: 60px;
+	font-size: 70px;
+	font-family: Anton;
+	column-count: 1;
+
+}
+body{
+	color: whitesmoke;
+	background: rgb(226,204,54);
+background: radial-gradient(circle, rgba(226,204,54,1) 1%, rgba(114,186,63,1) 9%, rgba(51,212,180,1) 28%, rgba(79,152,190,1) 51%, rgba(43,4,200,1) 75%, rgba(128,0,255,1) 100%);
+}
