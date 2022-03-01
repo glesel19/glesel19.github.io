@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Comfortaa&family=Dancing+Script&family=Domine:wght@500&family=Inconsolata:wght@400;600&family=Marck+Script&family=Noto+Serif+JP:wght@300&family=Playfair+Display:ital,wght@1,800&family=Raleway:wght@200&family=Seaweed+Script&display=swap');
+h1 {
+font-family:Raleway ;
+text-align: center;
+}
+h2 {
+font-family:Marck Script;
+text-align: center;
+}
+p{
+background-color: white;
+padding: 10px;
+margin: 60px;
+}
+.a{
+font-size: 15px;
+columns: 3;
+border: 7px dotted;
+background-color : white;
+padding: 10px;
+font-family: Raleway;
+margin: 20px;
+}
+#b{
+background: rgb(177,214,228);
+background: radial-gradient(circle, rgba(177,214,228,1) 11%, rgba(86,124,209,1) 45%, rgba(89,124,203,1) 62%);
+height: 300px;
+display:flex ;
+justify-content: center;
+align-items: center;
+border: 7px dotted;
+margin: 20px;
+font-family: Raleway;
+}
+.c{
+background-color: lightblue;
+height: 300px;
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+border: 5px dotted;
+margin: 20px;
+font-family: Raleway;
+}
+#d{
+background-color: blue;
+height: 300px;
+display:flex ;
+justify-content: center;
+align-items: center;
+border: 7px dotted;
+margin: 20px;
+}
+img{
+height:150px;
+width: 200px;
+border: white;
+}footer{
+background-color: darkblue;
+height: 300px;
+padding: 10px;
+display:flex ;
+justify-content: space-around;
+align-items: flex-end;
+border: 7px dotted;
+margin: 20px;
+}
+
