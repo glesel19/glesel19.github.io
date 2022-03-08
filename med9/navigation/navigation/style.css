@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Domine&family=Josefin+Sans:ital,wght@1,100&family=League+Gothic&family=Neonderthaw&family=Open+Sans:wght@300&family=Oswald&family=Pacifico&family=Raleway:wght@100&display=swap');
+body{
+   margin: 0;
+}
+nav {
+   background-color: royalblue;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px;
+}
+
+nav img {
+   height: 80px;
+   border-radius: 50%;
+
+}
+ul {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   list-style-type: none;
+}
+ul li a {
+   margin: 20px;
+   padding: 20px;
+   text-decoration: none;
+   color: black;
+   background-color: white;
+   border-radius: 10px;
+   font-family: League Gothic;
+}
+ul li a:hover { 
+   background-color: royalblue;
+   color: white;
+
+}
