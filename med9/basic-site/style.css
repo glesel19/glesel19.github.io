@@ -1,0 +1,119 @@
+/*
+*  Title: A website about sehenswürdigkeiten in Albania
+*  Author: Gleni Selmani
+*  Date: 15.3.22
+*/
+
+
+/***************** General Styles *****************/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Domine&family=Josefin+Sans:ital,wght@1,100&family=League+Gothic&family=Neonderthaw&family=Open+Sans:wght@300&family=Oswald&family=Pacifico&family=Raleway:wght@100&family=Smooch+Sans:wght@200&display=swap');
+body{
+   margin: 0;
+}
+/*Navigation*/
+nav {
+   background-color: yellow;
+   display: flex;
+   justify-content: space-between; /* To make space between logo and list*/
+   align-items: center;
+   padding: 30px;
+}
+
+nav img {
+   height: 80px;
+   border-radius: 50%;
+
+}
+nav ul {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   list-style-type: none;
+}
+nav ul li a {
+   margin: 20px;
+   padding: 20px;
+   text-decoration: none;
+   color: black; /* it turns the color black */
+   background-color: white; /* it turns the background-color white */
+   border-radius: 10px;
+   font-family: Smooch Sans;
+}
+/* Hover is used to make a nice effect if we put the mause over the link */
+nav ul li a:hover { 
+   background-color: darkred;
+   color: white;
+
+}
+/* Header */
+header {
+   height: 450px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   background-position: center;
+}
+header h1 {
+   font-size:60px;
+   text-transform: uppercase;
+   background-color: rgb(0,109,150);
+   border-radius: 20px;
+   padding: 20px;
+}
+/* Main */
+main {
+   padding: 100px;
+}
+main h2 {
+   color: blueviolet ;
+}
+/* Footer */
+footer {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 450px;
+   background: radial-gradient(circle, rgba(100,148,172,1) 6%, rgba(0,107,246,1) 43%, rgba(64,122,198,1) 54%, rgba(0,44,105,1) 100%);
+ }
+ footer p {
+   font-size: 30px;
+   color: white;
+ }
+
+
+ /* Sections */
+ section {
+   padding: 50px;
+   background-color:rgb(0,109,150) ;
+ }
+
+ /********************************** Page Styles ***********************************/
+
+ /* Home Page */
+#Home header {
+   background-image:url("berat.jpg");
+}
+
+ /* About Page */
+#About header {
+   background-image:url("berat2.jpg");
+ }
+#About main {
+   background-color: darkred;
+}
+
+ /* Cities Page */
+#Cities header {
+   background-image:url("cities.jpg");
+}
+#Cities main {
+   background-color: yellow;
+}
+/* Flüsse Page */
+#Flüsse header {
+   background-image:url("drini.jpg");
+}
+#Flüsse main {
+   background-color:powderblue ;
+}
