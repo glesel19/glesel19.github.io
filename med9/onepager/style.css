@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Domine&family=Josefin+Sans:ital,wght@1,100&family=League+Gothic&family=Neonderthaw&family=Open+Sans:wght@300&family=Oswald&family=Pacifico&family=Raleway:wght@100&display=swap');
+:root {
+   scroll-behavior: smooth;
+}
+
+
+body{
+   margin: 0;
+}
+/* Navigation */
+nav {
+   background-color: saddlebrown;
+   display: flex;
+   justify-content: space-between;/* To make space between logo and list*/
+   align-items: center;
+   padding: 30px;
+   position: fixed;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+nav img {
+   height: 80px;
+   border-radius: 50%;
+
+}
+ul {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   list-style-type: none;
+}
+ul li a {
+   margin: 20px;
+   padding: 20px;
+   text-decoration: none;
+   color: antiquewhitee;
+   background-color: black;
+   border-radius: 10px;
+   font-family: League Gothic;
+}
+ul li a:hover { 
+   background-color: grey;
+   color: navajowhite;
+
+}
+header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("header.jpg");
+   background-position: center;
+   background-size: cover;
+   height: 400px;
+}
+section {
+   padding: 100px;
+}
+#link1 {
+   background-color: saddlebrown;
+}
+#link2 {
+   background-color: navajowhite;
+}
+#link3 {
+   background-color: saddlebrown;
+}
