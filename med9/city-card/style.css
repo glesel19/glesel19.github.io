@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Domine&family=Josefin+Sans:ital,wght@1,100&family=League+Gothic&family=Neonderthaw&family=Open+Sans:wght@300&family=Oswald&family=Pacifico&family=Raleway:wght@100&family=Smooch+Sans:wght@200&family=Square+Peg&family=Tapestry&display=swap');
+
+article {
+	height: 200px;
+	width: 700px;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+
+}
+
+
+article #image {
+	background-image: url(sarreq.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 50%;
+}
+
+article #color {
+    background: linear-gradient(101deg, rgba(255,255,255,1) 6%, rgba(236,236,236,1) 19%, rgba(161,161,161,1) 36%, rgba(101,99,99,1) 54%, rgba(0,0,0,1) 100%);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 50%;
+}
+h1 {
+	background-color: grey;
+	height: 30px;
+	width: 70px;
+	font-family: Square Peg;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: black;
+	position: relative;
+	left: 70px;
+    top: 40px;
+}
+
+p {
+	background-color: Black;
+	height: 20px;
+	width: 150px;
+	font-family: Square Peg;
+	font-size: 20px;
+    color: whitesmoke;
+    position: relative;
+    left: -20px;
+    top: 70px;
+    z-index: 1;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
