@@ -1,0 +1,455 @@
+/*
+*
+* Title: Website about cars
+* Author: Roi Bushaj
+* Date: 17.03.2022
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tapestry&display=swap');
+
+
+
+/*Body*/
+body{
+margin: 0px;
+background-image: url(coffe2.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+
+/*Header*/
+header{
+display: flex;
+justify-content: center;
+}
+
+
+
+header h1{
+height: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("caffe2.jpg");
+background-position: center;
+background-size: cover;
+color: white;
+width: 1700px;
+}
+
+
+
+#index {
+background: burlywood;
+color: white;
+}
+
+
+
+p{
+font-family: Tapestry;
+}
+
+
+
+/*Main*/
+main{
+background: burlywood;
+}
+
+
+
+/*Section*/
+section {
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+color: black;
+}
+
+
+
+section .left{
+width: 70%;
+background-color: black;
+padding: 30px;
+border: solid black;
+font-family:Tapestry;
+background-image: url("shop.jpg");
+}
+
+
+
+section .right{
+width: 30%;
+background-color: white;
+padding: 30px;
+font-family:Tapestry ;
+border: solid black;
+}
+#products section.info{
+padding: 50px;
+background-color: black;
+font-family: Dancing Script;
+font-size: 20px;
+color: white;
+
+
+
+}
+
+
+
+#products section h2.info{
+color: white;
+font-size:30px ;
+
+
+
+}
+
+
+
+
+#products #products{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+
+#products #products img{
+width:230px ;
+margin: 10px;
+border: 3px solid darkgrey;
+
+
+
+}
+
+
+
+
+/*Navigation*/
+nav{
+background: burlywood;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+}
+
+
+
+nav img{
+height: 70px;
+border-radius: 50%;
+}
+
+
+
+nav ul{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style-type: none;
+font-family: Dancing Script;
+}
+
+
+
+nav ul li a{
+margin: 20px;
+padding: 20px;
+text-decoration: none;
+border-radius: 15px;
+background-color: darkgrey;
+color: white;
+}
+
+
+
+h2 {
+color: white;
+}
+
+
+
+
+/*Footer*/
+
+
+
+.footer{
+height: 150px;
+width: 1667px;
+font-family: Tapestry;
+}
+
+
+
+footer{
+height: 150px;
+width: 2000px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: burlywood;
+background-position: center;
+background-size: cover;
+font-family: Dancing Script;
+
+
+
+
+}
+
+
+
+footer p{
+background-color: , burlywood;
+padding: 12px;
+border-radius: 17px;
+font-size: 30px;
+font-family: Tapestry;
+}
+footer p:hover{
+color: white;
+
+
+
+
+}
+
+
+
+
+#products main{
+display: flex;
+justify-content: space-evenly;
+gap:30px ;
+flex-wrap: wrap;
+
+
+
+}
+#products header {
+
+
+
+background-position: center;
+background-size: cover;
+
+
+
+}
+
+
+
+
+
+
+
+/****Article****/
+
+
+
+article{
+position: relative;
+}
+
+
+
+
+
+article .text{
+width:280px ;
+height: 150px;
+background-color:ghostwhite ;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-direction: column;
+
+
+
+
+}
+article .text .mini-header{
+text-transform: uppercase;
+font-size: smaller;
+position: relative;
+left: -16px;
+
+
+
+}
+
+
+
+
+
+article .text .mini-footer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size:19px;
+color: black;
+width:100% ;
+position: relative;
+left: -11px;
+top: -31px;
+column-gap: 7px;
+
+
+
+}
+
+
+
+article .text .mini-header span{
+margin-right: 7px;
+
+
+
+}
+article .box{
+background-color: red;
+padding: 6px;
+text-transform:uppercase ;
+position: absolute;
+top: 189px;
+left: 0px;
+color: white;
+flex-wrap: wrap;
+}
+
+
+
+
+article .shoe1{
+width: 280px;
+height: 180px;
+background-image: url("coffe.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+
+
+article .shoe2{
+width: 280px;
+height: 180px;
+background-image: url("capuchino.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+
+
+article .basketball{
+width: 280px;
+height: 180px;
+background-image: url("cacao.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+flex-wrap: wrap;
+
+
+
+}
+
+
+
+article .football{
+width: 280px;
+height: 180px;
+background-image: url("salep.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+
+
+article .kit1{
+width: 280px;
+height: 180px;
+background-image: url("tee.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+
+
+article .kit2{
+width: 280px;
+height: 180px;
+background-image: url("machiato.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+
+
+article .costume2{
+width: 280px;
+height: 180px;
+background-image: url("whater.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+
+
+article .white{
+width: 280px;
+height: 180px;
+background-image: url("white socks.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+
+
+article .brown{
+width: 280px;
+height: 180px;
+background-image: url("brown socks.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+
+
+article h1{
+position: relative;
+top: -20px;
+font-family: Patrick Hand;
+
+
+
+}
