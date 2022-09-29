@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Progressing</title>
+
+	<style type="text/css">
+		body{
+			background-color: green;
+		}
+		.progressing{
+			color: yellow;
+			margin-top: 15px;
+			margin-right: 20px;
+		}
+		.kol{
+		
+			width: 250px;
+			height: 10px;
+			border: 10px solid  #f4a261;
+			border-radius: 15px;
+			margin-top: 10px;
+			
+		}
+		.kolson{
+			height: 10px;
+			border-radius: 15px;
+			animation-name: ujku;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			background-color: grey;
+		}
+		@keyframes ujku{
+			0%{width: 0;}
+			25%{width: 125px;}
+			50%{width: 187px;}
+			75%{width: 205px;}
+			100%{width: 250px;}
+		}
+	</style>
+
+</head>
+<body>
+    <div class="progressing">Progressing...</div>
+   	<div class="kol">
+   		<div class="kolson"></div>
+   	</div>
+
+   </div>
+   
+</body>
+</html>
